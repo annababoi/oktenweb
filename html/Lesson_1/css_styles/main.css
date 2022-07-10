@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+.content img {
+  width: 300px;
+}
+.family {
+  background: #ffbcbc;
+  color: #460404;
+}
+.homer {
+  background: #71abef;
+  color: #010e65;
+}
+.homer li {
+  color: #010e65;
+  background: #6495e5;
+  width: 300px;
+}
+
+.bart {
+  background: #b1e5a9;
+  color: #074b0a;
+}
+.bart li {
+  color: #074b0a;
+  background: #87ce7d;
+  width: 300px;
+}
+.lisa {
+  background: #f8eab6;
+  color: #85740e;
+}
+.lisa li {
+  color: #85740e;
+  background: #ecd688;
+  width: 300px;
+}
+
+.new {
+}

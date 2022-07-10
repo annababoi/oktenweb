@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Conv_SourceSansPro-ExtraLight';
+    src: url('fonts/SourceSansPro-ExtraLight.eot');
+    src: local('вє'), url('fonts/SourceSansPro-ExtraLight.woff') format('woff'), url('fonts/SourceSansPro-ExtraLight.ttf') format('truetype'), url('fonts/SourceSansPro-ExtraLight.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 530px;
+    margin: 0 auto;
+    font-family: 'Conv_SourceSansPro-ExtraLight', serif;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+
+
+}
+.content{
+    margin: 17px;
+    background: white;
+
+}
+
+.block-top {
+    height: 207px;
+    background: #246cbc;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 17px 0;
+
+}
+
+.mid{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 17px 0;
+    width: 100%;
+    gap: 17px;
+}
+
+.mid1{
+
+    width: 100%;
+    height: 188px;
+    background: #16457a;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.block-bottom {
+    height: 412px;
+    background: #246cbc;
+    box-sizing: border-box;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
