@@ -18,11 +18,11 @@
     background: #71abef;
     box-sizing: border-box;
 }
-.boxes_b-e{
-    /*width: 70%;*/
-    /*height: 400px;*/
-    /*background: #ffbcbc;*/
-}
+/*.boxes_b-e{*/
+/*    !*width: 70%;*!*/
+/*    !*height: 400px;*!*/
+/*    !*background: #ffbcbc;*!*/
+/*}*/
 .box_b{
     width: 80vw;
     height: 200px;
