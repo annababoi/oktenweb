@@ -1,0 +1,41 @@
+/*div {*/
+/*    width: 200px;*/
+/*}*/
+/*img {*/
+/*    width: 100%;*/
+/*}*/
+/*h3{*/
+/*    font-size: 30px;*/
+/*    color: #0d6712;*/
+/*    text-transform: uppercase;*/
+/*    text-align: center;*/
+/*}*/
+/*body {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*    gap: 10px;*/
+/*}*/
+/*.postcard {*/
+/*    width: 250px;*/
+/*    height: 250px;*/
+/*    background: #ffbcbc;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*}*/
+body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.user-box{
+    height: 600px;
+    width: 600px;
+    background: bisque;
+    font-size: 1.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
