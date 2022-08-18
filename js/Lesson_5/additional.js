@@ -64,10 +64,10 @@
 
 //
 // - Дано натуральное число n. Выведите все числа от 1 до n.
-let number = (n) => {
+let number = (someNumber) => {
     let numb = [];
-    for (let i = 0; i < n; i++) {
-        numb.unshift(n[i])
+    for (let i = 1; i <= someNumber; i++) {
+
     }
     return numb;
 }
