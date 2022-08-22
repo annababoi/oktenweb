@@ -1,0 +1,19 @@
+.wrap {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+div{
+    margin: 10px;
+    background: linen;
+}
+
+table {
+    width: 100%;
+}
+tr, td {
+    border: 1px solid;
+}
