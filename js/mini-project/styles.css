@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+/*index*/
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.common_list_style {
+    background: #b7d7ff;
+    border: 1px solid #010152;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.users {
+    width: 70%;
+    height: 150px;
+    margin: 10px;
+}
+
+.btn {
+    background: #869dc9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    border: 1px solid #010152;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn_details {
+    font-size: 22px;
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+
+}
+
+/*!*user-details*!*/
+.user_info {
+    width: 75vw;
+    line-height: 40px;
+    font-size: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.btn_load_post {
+    width: 90%;
+    height: 50px;
+    font-size: 22px;
+    margin: 20px;
+    display: flex;
+    align-self: center;
+}
+
+.post_title {
+    display: none;
+}
+
+.wrap__posts{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post_wrap {
+    display: flex;
+    flex-direction: column;
+    width: 16%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #869dc9;
+}
+
+.list{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.user_info{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.user_title{
+    display: flex;
+    align-self: center;
+}
+
+/*!*post-details*!*/
+.post, .comment {
+    font-size: 1.3em;
+    justify-content: start;
+}
+
+.post{
+    width: 90vw;
+    margin: 20px;
+    padding: 30px 15px 20px 20px;
+    box-sizing: border-box;
+    line-height: 40px;
+}
+.comment{
+    width: 20%;
+    min-height: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.comment h3{
+    padding-bottom: 10px;
+}
+.wrap_comments{
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    position: relative;
+}
